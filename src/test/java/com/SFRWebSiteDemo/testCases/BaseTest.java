@@ -11,6 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+
 import com.SFRWebSiteDemo.utilities.*;
 
 public class BaseTest {
@@ -23,6 +25,7 @@ public class BaseTest {
 	public String chromepath = readconfig.getChromePath();
 	public static WebDriver driver;
 	
+	@Parameters("browser")
 	@BeforeClass
 	public void setup()
 	{			

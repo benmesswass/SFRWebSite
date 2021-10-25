@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-25T12:23:38 CEST" name="Default suite" finished-at="2021-10-25T12:23:55 CEST" duration-ms="17476">
+  <suite started-at="2021-10-25T12:47:53 CEST" name="SFRWebSiteDemo" finished-at="2021-10-25T12:48:11 CEST" duration-ms="17516">
     <groups>
     </groups>
-    <test started-at="2021-10-25T12:23:38 CEST" name="Default test" finished-at="2021-10-25T12:23:55 CEST" duration-ms="17476">
+    <test started-at="2021-10-25T12:47:53 CEST" name="SFRWebSiteDemo Test" finished-at="2021-10-25T12:48:11 CEST" duration-ms="17516">
       <class name="com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@3e84448c]" started-at="2021-10-25T12:23:38 CEST" name="setup" finished-at="2021-10-25T12:23:39 CEST" duration-ms="1255" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@4d0f2471]" started-at="2021-10-25T12:47:54 CEST" name="setup" finished-at="2021-10-25T12:47:55 CEST" duration-ms="1218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="offresTVTest()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@3e84448c]" started-at="2021-10-25T12:23:39 CEST" name="offresTVTest" finished-at="2021-10-25T12:23:55 CEST" duration-ms="16189" status="PASS">
+        <test-method signature="offresTVTest()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@4d0f2471]" started-at="2021-10-25T12:47:55 CEST" name="offresTVTest" finished-at="2021-10-25T12:48:11 CEST" duration-ms="16100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- offresTVTest -->
       </class> <!-- com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SFRWebSiteDemo Test -->
+  </suite> <!-- SFRWebSiteDemo -->
 </testng-results>
