@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-25T12:47:53 CEST" name="SFRWebSiteDemo" finished-at="2021-10-25T12:48:11 CEST" duration-ms="17516">
+  <suite started-at="2021-10-25T14:22:28 CEST" name="SFRWebSiteDemo" finished-at="2021-10-25T14:22:45 CEST" duration-ms="17400">
     <groups>
     </groups>
-    <test started-at="2021-10-25T12:47:53 CEST" name="SFRWebSiteDemo Test" finished-at="2021-10-25T12:48:11 CEST" duration-ms="17516">
+    <test started-at="2021-10-25T14:22:28 CEST" name="SFRWebSiteDemo Test" finished-at="2021-10-25T14:22:45 CEST" duration-ms="17400">
       <class name="com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@4d0f2471]" started-at="2021-10-25T12:47:54 CEST" name="setup" finished-at="2021-10-25T12:47:55 CEST" duration-ms="1218" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@27462a88]" started-at="2021-10-25T14:22:28 CEST" name="setup" finished-at="2021-10-25T14:22:29 CEST" duration-ms="1212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="offresTVTest()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@4d0f2471]" started-at="2021-10-25T12:47:55 CEST" name="offresTVTest" finished-at="2021-10-25T12:48:11 CEST" duration-ms="16100" status="PASS">
+        <test-method signature="offresTVTest()[pri:0, instance:com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002@27462a88]" started-at="2021-10-25T14:22:29 CEST" name="offresTVTest" finished-at="2021-10-25T14:22:45 CEST" duration-ms="15986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- offresTVTest -->

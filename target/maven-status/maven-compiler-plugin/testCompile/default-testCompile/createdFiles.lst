@@ -1,0 +1,7 @@
+com\SFRWebSiteDemo\testCases\TC_LoginPageTest_001.class
+com\SFRWebSiteDemo\testCases\BaseTest.class
+com\SFRWebSiteDemo\utilities\Reporting.class
+com\SFRWebSiteDemo\testCases\TC_OffresTVTest_002.class
+com\SFRWebSiteDemo\utilities\ReadConfig.class
+com\SFRWebSiteDemo\pageObjects\LoginPage.class
+com\SFRWebSiteDemo\pageObjects\OffresTV.class
