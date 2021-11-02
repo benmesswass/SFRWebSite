@@ -9,10 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">SFRWebSiteDemo</th></tr>
-<tr><td><a href="#t0">SFRWebSiteDemo Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,134</td><td></td><td></td></tr>
+<tr><td><a href="#t0">SFRWebSiteDemo Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,940</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SFRWebSiteDemo</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SFRWebSiteDemo Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002</td><td><a href="#m0">offresTVTest</a></td><td rowspan="1">1635243398021</td><td rowspan="1">17965</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SFRWebSiteDemo</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SFRWebSiteDemo Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002</td><td><a href="#m0">offresTVTest</a></td><td rowspan="1">1635844898126</td><td rowspan="1">16219</td></tr></tbody>
 </table>
-<h2>SFRWebSiteDemo Test</h2><h3 id="m0">com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002#offresTVTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SFRWebSiteDemo Test</h2><h3 id="m0">com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002#offresTVTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;CkC&apos;]/div/div/a&quot;}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QQ1VBIF&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:61452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be25aab1fd09bc60216b4ba70d099caa
+*** Element info: {Using=xpath, value=//*[@id=&apos;CkC&apos;]/div/div/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.SFRWebSiteDemo.pageObjects.OffresTV.setOffresBoxbtn(OffresTV.java:52)
+	at com.SFRWebSiteDemo.testCases.TC_OffresTVTest_002.offresTVTest(TC_OffresTVTest_002.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
