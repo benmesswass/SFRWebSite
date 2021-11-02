@@ -16,6 +16,6 @@ public class TC_OffresTVTest_002 extends BaseTest {
 		OffresTV oTV = new OffresTV(driver);
 		oTV.setOffresBoxbtn(driver);
 		oTV.setElegibility(driver, homeAdress, city);
-		captureScreen(driver, "loginTest");
+		//captureScreen(driver, "loginTest");
 	}
 }

@@ -64,14 +64,18 @@ WebDriver ldriver;
 		Thread.sleep(2000);
 		int nbreSuggestions = driver.findElements(By.xpath("//div[@class='suggestions-container is-visible']/ul/li")).size();
 		for (int i=1; i<nbreSuggestions+1; i++) {
-		WebElement adressToBeSelected = driver.findElement(By.xpath("//div[@class='suggestions-container is-visible']/ul/li["+i+"]"));
-		if (adressToBeSelected.getText().contains(city)) {
+			//WebElement adressToBeSelected = driver.findElement(By.xpath("//div[@class='suggestions-container is-visible']/ul/li["+i+"]"));
+			WebElement adressToBeSelected = driver.findElement(By.xpath("//*[@id=\'Adresse\']/div/div[2]/ul/li["+i+"]"));
 			System.out.println(adressToBeSelected.getText()); 
-			adressToBeSelected.click();
-		}
+			if (adressToBeSelected.getText().contains(city)) {
+				System.out.println(adressToBeSelected.getText()); 
+				adressToBeSelected.click();
+				break;
+			}
 		}
 		testerBtn.click();	
-		Thread.sleep(4000);
+		
+		Thread.sleep(5000);
 		testerMonElegibiliteBtn.click();
 
 		}
